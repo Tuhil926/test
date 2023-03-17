@@ -1,3 +1,27 @@
+/*div{
+    background-color: rgba(13, 7, 23, 0.358);
+}
+*/
+.counter{
+    margin: auto;
+    margin-top: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-family: "Courier new";
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: 600;
+
+}
+
+.left_div{
+    float: left;
+    width: 30%;
+}
+.right_div{
+    float: left;
+    width: 70%;
+}
 .hello{
     font-family: "Courier new";
     color: rgb(255, 255, 255);
@@ -5,9 +29,10 @@
     text-align: center;
     border-radius: 20px;
     margin: auto;
-    margin-left: 40%;
+    margin-left: 5%;
     margin-top: 5%;
-    width: 60%;
+    width: 100%;
+    position: relative;
 }
 
 li{
@@ -23,20 +48,63 @@ li:nth-child(2n){
     background-color: rgba(13, 7, 23, 0.358);
 }
 
-div{
+.list1{
     background-color: rgba(17, 0, 48, 0.441);
-    width: 50%;
+    width: 70%;
     margin: auto;
-    margin-top: 10%;
-    margin-left: 40%;
+    margin-top: 12%;
+    margin-left: 15%;
     padding:1%;
     padding-left: 5%;
     border-radius: 10px;
+    position: relative;
 }
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/012/003/621/original/modern-purple-gradient-background-with-sporty-design-cool-gaming-concept-banner-presentation-social-media-certificate-brochure-eps10-vector.jpg);
     align-items: center;
 }
+button{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Courier new";
+    border: 0;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+    background-color: rgba(13, 7, 23, 0.0);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition:all 0.3s;
+
+}
+button:hover{
+    background-color: rgba(231, 216, 255, 0.358);
+    transform: scale(1.04) rotate(-1deg);
+}
+button:active{
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.865);
+    color: black;
+}
 a{
     color: white;
+    font-style: normal;
+    text-decoration: none;
 }
+
+li:last-child{
+    background-color: rgba(13, 7, 23, 0.358);
+    color: rgb(255, 255, 255);
+    text-underline-position: above;
+    transition: all 0.2s;
+}
+li:last-child:hover{
+    background-color: rgba(231, 216, 255, 0.358);
+    transform: scale(1.04) rotate(-1deg);
+}
+li:last-child:active{
+    transition: 0s;
+    background-color: rgba(255, 255, 255, 0.865);
+    color: black;
+}
+
